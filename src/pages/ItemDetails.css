@@ -1,0 +1,72 @@
+.background-a1 {
+    background: url(../assets/landscape4.jpeg) no-repeat center center / cover;
+    backdrop-filter: blur(8px);
+    overflow: hidden;
+    height: 92vh;
+}
+
+.product-image {
+    width: 550px;
+    height: 600px;
+    object-fit: cover;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+
+}
+
+.item-container {
+    display: flex;
+    gap: 250px;
+}
+
+.login-button-2 {
+    background-color: #3C3D37;
+    color: #ECDFCC;
+    border: none;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 0 15px;
+    font-size: 14px;
+    white-space: nowrap;
+    text-align: center;
+    display: inline-block;
+}
+
+.login-button-2:hover {
+    background-color: #1E201E;
+    color: #ECDFCC;
+}
+
+.item-name-1{
+    font-size: 50px;
+    font-family: wasted;
+    margin-top: 100px;
+}
+
+.priceing {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.priceing .curr-price {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.last-bid {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+.input-field-bid {
+    border-radius: 30px;
+    border: black black gray gray 1px solid;
+}
+
+.back-button-1 {
+    background: none;
+    border: none;
+    font-size: 40px;
+    padding-bottom: 20px;
+}

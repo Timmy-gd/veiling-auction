@@ -1,0 +1,124 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.parent-upload {
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form {
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background: url(../assets/landscape4.jpeg) no-repeat center center / cover;
+    backdrop-filter: blur(8px);
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.form > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 50px;
+    padding-left: 50px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.input-field label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-field input {
+    height: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: black black gray gray 1px solid;
+
+}
+
+.categories-label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.upload-button {
+    bottom: 1;
+    height: 50px;
+    width: 150px;
+    background-color: #3C3D37;
+    color: #ECDFCC;
+    border: none;
+    border-radius: 150px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+.image-previews {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px black solid;
+    overflow: hidden;
+}
+
+.image-previews img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.upload-container label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 20px
+}
+
+.upload-button:hover {
+    background-color: #1E201E;
+    color: #ECDFCC;
+}
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-form {
+    background-color: #3C3D37;
+    color: #ECDFCC;
+    border: none;
+    height: 30px;
+    border-radius: 50px;
+    padding: 0 15px;
+    font-size: 14px;
+    white-space: nowrap;
+    display: inline-block;
+}
