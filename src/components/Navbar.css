@@ -69,6 +69,7 @@
 
 .log-page {
     position: relative;
+    background-color: gray;
     background: url(../assets/landscape4.jpeg) no-repeat center center / cover;
     border-radius: 30px;
     display: flex;
